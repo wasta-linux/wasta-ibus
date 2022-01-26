@@ -1,0 +1,13 @@
+Source: wasta-ibus
+Section: utils
+Priority: optional
+Maintainer: Rik Shaw <rikshaw76@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 4.4.0
+Homepage: https://github.com/wasta-linux/wasta-ibus
+
+Package: wasta-ibus
+Architecture: all
+Depends: ibus, xmlstarlet, ${misc:Depends}
+Description: IBus Keyboard Integration
+ IBus Keyboard Integration for Wasta-Linux
